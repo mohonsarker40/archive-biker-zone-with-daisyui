@@ -7,8 +7,9 @@
   <title>Biker Zone </title>
 
   <!-- tailwind and daisy UI cdn -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+
 
   <!-- google font poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +41,7 @@
 </head>
 
 <body class="font-poppins">
-  <!-- nav  -->
+  <!-- header  -->
   <header class="md:container md:mx-auto">
     <!-- nav -->
     <div class="navbar bg-base-100">
@@ -78,7 +79,7 @@
   <!--slider or carousel -->
   <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
     <!-- slide 1 -->
-    <div id="slide1" class="carousel-item relative w-full">
+    <div id="slide1" class="carousel-item relative w-full justify-center">
       <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
         <div class="space-y-7 flex-1">
           <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br>
@@ -97,7 +98,7 @@
       </div>
     </div>
     <!-- slide 2 -->
-    <div id="slide2" class="carousel-item relative w-full">
+    <div id="slide2" class="carousel-item relative w-full justify-center">
       <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
         <div class="space-y-7 flex-1">
           <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br>
@@ -116,7 +117,7 @@
       </div>
     </div>
     <!-- slide 3 -->
-    <div id="slide3" class="carousel-item relative w-full">
+    <div id="slide3" class="carousel-item relative w-full justify-center">
       <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
         <div class="space-y-7 flex-1">
           <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br>
@@ -135,7 +136,7 @@
       </div>
     </div>
     <!-- slide 4 -->
-    <div id="slide4" class="carousel-item relative w-full">
+    <div id="slide4" class="carousel-item relative w-full justify-center">
       <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
         <div class="space-y-7 flex-1">
           <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br>
@@ -160,7 +161,7 @@
     <section></section>
 
 
-    <!-- latest bike -->  
+    <!-- latest bike -->
     <section class="my-24">
       <h3 class="text-4xl lg:text-5xl font-semibold text-center text-[#0A0826] mb-12">Latest News</h3>
       <div class="grid gap-5 grid-col-1 md:grid-cols-2 lg:grid-cols-3 ">
@@ -169,7 +170,8 @@
           <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
           <div class="card-body py-10">
             <h2 class="card-title text-2xl text-[#18191F] font-normal">Ducati XDIAVEL S-73</h2>
-            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
             <div class="card-actions justify-start">
               <button class="btn bg-bike-primary text-white">Read More</button>
             </div>
@@ -180,7 +182,8 @@
           <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
           <div class="card-body py-10">
             <h2 class="card-title text-2xl text-[#18191F] font-normal">Ducati XDIAVEL S-73</h2>
-            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
             <div class="card-actions justify-start">
               <button class="btn bg-bike-primary text-white">Read More</button>
             </div>
@@ -191,7 +194,8 @@
           <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
           <div class="card-body py-10">
             <h2 class="card-title text-2xl text-[#18191F] font-normal">Ducati XDIAVEL S-73</h2>
-            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
             <div class="card-actions justify-start">
               <button class="btn bg-bike-primary text-white">Read More</button>
             </div>
@@ -203,22 +207,23 @@
 
     <!-- happy client -->
     <section class="my-24">
-      <h3 class="text-4xl lg:text-5xl font-semibold text-center text-[#0A0826] mb-12">Happy <span class="text-bike-primary">Clients says</span></h3>
+      <h3 class="text-4xl lg:text-5xl font-semibold text-center text-[#0A0826] mb-12">Happy <span
+          class="text-bike-primary">Clients says</span></h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11">
         <!-- card 1 -->
         <div class="card border border-gray-300 bg-base-100 p-9">
           <figure><img class="w-[149px]" src="/images/others/user-1.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <p class="text-normal">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
+            <p class="text-normal">Slate helps you see how
+              many more days you need
+              to work to reach your financial
               goal for the month and year.</p>
             <div class="text-center">
               <div class="rating py-2">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <h4 class="text-info py-2 font-semibold">Regina Miles</h4>
@@ -230,16 +235,16 @@
         <div class="card border border-gray-300 bg-base-100  p-9">
           <figure><img class="w-[149px]" src="/images/others/user-2.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <p class="text-normal">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
+            <p class="text-normal">Slate helps you see how
+              many more days you need
+              to work to reach your financial
               goal for the month and year.</p>
             <div class="text-center">
               <div class="rating py-2">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <h4 class="text-info py-2 font-semibold">Regina Miles</h4>
@@ -251,16 +256,16 @@
         <div class="card border border-gray-300 bg-base-100  p-9">
           <figure><img class="w-[149px]" src="/images/others/user-3.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <p class="text-normal">Slate helps you see how 
-              many more days you need 
-              to work to reach your financial 
+            <p class="text-normal">Slate helps you see how
+              many more days you need
+              to work to reach your financial
               goal for the month and year.</p>
             <div class="text-center">
               <div class="rating py-2">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <h4 class="text-info py-2 font-semibold">Regina Miles</h4>
@@ -269,6 +274,52 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="my-24">
+      <h3 class="text-4xl lg:text-5xl font-semibold text-center text-[#0A0826] mb-12">Frequently Asked <span
+          class="text-bike-primary">Questions</span></h3>
+
+          <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row gap-24">
+              <img src="/images/others/faq.png" class="max-w-sm" />
+
+
+              <div>
+                <div class="collapse collapse-arrow bg-base-200 mb-5">
+                  <input type="radio" name="my-accordion-2" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    What are the most important things I should
+know about riding a bike?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200 mb-5">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    What are the most important things I should
+know about riding a bike?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    What are the most important things I should
+know about riding a bike?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
   </main>
   <footer class="md:container md:mx-auto"></footer>
